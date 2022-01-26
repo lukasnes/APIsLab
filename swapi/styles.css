@@ -1,0 +1,11 @@
+.question {
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    margin-left: -25%;
+}
+.submit {
+    position: absolute;
+    left: 50%;
+    margin-left: -3%;
+}

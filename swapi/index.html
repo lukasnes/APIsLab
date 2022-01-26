@@ -4,8 +4,15 @@
         <link rel = "stylesheet" href = "styles.css"> 
     </head>
     <body class = "body">
-        <button class = "resBtn">Get Residents</button>
-
+        <div>
+            <form>
+                <input class = 'question'
+                    type = 'text'
+                    id = 'planet'
+                    placeholder="Which planet's residents are you looking for?"/>
+                <button class = "submit">Submit</button>
+            </form>
+        </div>
         <script src="./node_modules/axios/dist/axios.min.js"></script>
         <script src="main.js"></script>
     </body>
